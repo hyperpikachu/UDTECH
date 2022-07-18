@@ -58,7 +58,7 @@
       <div class="col">상품권구매</div>
     </div>
 
-
+  version1 css로 작업해봄
 
 
   </div>
