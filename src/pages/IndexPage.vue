@@ -19,79 +19,53 @@
     </q-carousel>
   </div>
 
-  <div class="q-pa-md coldiv">
+<div class="row justify-around q-gutter-xl">
 
-    <div class="column">
-      <div class="col">유디테크</div>
-      <div class="col">회사소개</div>
-      <div class="col">사업소개</div>
-      <div class="col">상품권</div>
-      <div class="col">쇼핑</div>
-    </div>
-
-       <div class="column">
-      <div class="col">회사소개</div>
-      <div class="col">인사말</div>
-      <div class="col">연혁</div>
-      <div class="col">오시는길</div>
-    </div>
-
-    <div class="column">
-      <div class="col">사업소개</div>
-      <div class="col">고객관리</div>
-      <div class="col">전화관리</div>
-      <div class="col">사무환경 개선</div>
-    </div>
-
-     <div class="column">
-      <div class="col">상품권</div>
-      <div class="col">상품권조회</div>
-      <div class="col">상품권구매</div>
-      <div class="col">상품권설정</div>
-    </div>
-
-     <div class="column">
-      <div class="col">쇼핑</div>
-      <div class="col">오토큐상품</div>
-      <div class="col">자동차 관리용품</div>
-      <div class="col">자동차 소모품</div>
-      <div class="col">상품권구매</div>
-    </div>
-
-git upload
-
-
+  <div class="q-mt-xs">
+    <div><h6 class="q-mb-none">유디테크</h6></div>
+    <div>회사소개</div>
+    <div>사업소개</div>
+    <div>상품권</div>
+    <div>쇼핑</div>
   </div>
+
+   <div class="q-mt-xs">
+    <div><h6 class="q-mb-none">회사소개</h6></div>
+    <div>인사말</div>
+    <div>연혁</div>
+    <div>오시는길</div>
+  </div>
+
+   <div class="q-mt-xs">
+    <div><h6 class="q-mb-none">사업소개</h6></div>
+    <div>고객관리</div>
+    <div>전화관리</div>
+    <div>사무환경 개선</div>
+  </div>
+
+   <div class="q-mt-xs">
+    <div><h6 class="q-mb-none">상품권</h6></div>
+    <div>상품권 조회</div>
+    <div>상품권 구매</div>
+    <div>상품권 설정</div>
+  </div>
+
+  <div class="q-mt-xs">
+    <div><h6 class="q-mb-none">쇼핑</h6></div>
+    <div>오토큐 상품</div>
+    <div>자동차 관리용품</div>
+    <div>자동차 소모품</div>
+    <div>상품권 구매</div>
+  </div>
+</div>
 
 </template>
 
-<style scoped lang="scss">
-
-.coldiv {
-  display: flex;
-  background-color:none;
-  justify-content: center;
-  align-items: flex-start;
-
-}
-
-.column {
-  background-color: none;
-  margin: 0px 45px;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.col {
-  width: 100px;
-  height: 30px;
-  margin: 0;
-  box-sizing:border-box;
-  margin-bottom: 10px;
-}
+<style lang="scss">
 
 
 </style>
+
 
 <script>
 import { ref } from 'vue'
